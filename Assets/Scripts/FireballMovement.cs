@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FireballMovement : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class FireballMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        speed = FireballSpawning.speed;
         rb.velocity = new Vector3(0f, 0f, speed);
     }
 
@@ -24,5 +26,10 @@ public class FireballMovement : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (collision.CompareTag("Player"))
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
+
 }

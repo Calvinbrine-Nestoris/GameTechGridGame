@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GoToGame : MonoBehaviour
 {
     public Button startButton;
+    public string targetLevel;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,6 @@ public class GoToGame : MonoBehaviour
 
     private void TaskOnClick()
     {
-        SceneManager.LoadScene("GridLevel");
+        SceneManager.LoadScene(targetLevel);
     }
 }
