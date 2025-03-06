@@ -578,10 +578,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1325135080}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -346.39496, y: 252}
-  m_SizeDelta: {x: 193.2816, y: 50}
+  m_AnchorMin: {x: 0.023331743, y: 0.86}
+  m_AnchorMax: {x: 0.35300002, y: 0.97}
+  m_AnchoredPosition: {x: 60.700012, y: 0.49993896}
+  m_SizeDelta: {x: -92.4371, y: 1.4562988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &981975318
 MonoBehaviour:
@@ -630,8 +630,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -666,7 +666,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -1.1051102, w: 0}
+  m_margin: {x: 0.9983597, y: 0, z: -1.1051102, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -728,7 +728,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &1325135078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -762,8 +762,8 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 0
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -893,7 +893,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666033618}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -963,7 +963,7 @@ GameObject:
   - component: {fileID: 1783413458}
   - component: {fileID: 1783413457}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Time Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -983,10 +983,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1325135080}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -490.26227, y: 252}
-  m_SizeDelta: {x: 93.6715, y: 50}
+  m_AnchorMin: {x: 0.023331743, y: 0.86}
+  m_AnchorMax: {x: 0.134, y: 0.97}
+  m_AnchoredPosition: {x: 100.82, y: 0.5}
+  m_SizeDelta: {x: 204.69, y: 1.4563}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1783413457
 MonoBehaviour:
@@ -1035,8 +1035,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -0.92450714, w: 0}
+  m_margin: {x: 0, y: 0, z: 0.90469354, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

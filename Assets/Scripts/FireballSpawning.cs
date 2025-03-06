@@ -13,6 +13,7 @@ public class FireballSpawning : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        speed = 2.0f;
         countdown = maxCountdown;
     }
 
