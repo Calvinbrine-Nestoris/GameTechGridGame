@@ -11,7 +11,7 @@ public class GridManager : MonoBehaviour
     [SerializeField] private Vector2 padding = new Vector2(0.1f,0.1f);
     private List<GameObject> _tiles = new List<GameObject>();
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _tiles.Capacity = numRows * numColumns;
         for (int row = 0; row < numRows; row++)
